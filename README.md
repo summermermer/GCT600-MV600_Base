@@ -1,4 +1,4 @@
-# GCT555 Project Base
+# GCT600/MV Project Base
 
 This project consists of a Python-based server for motion tracking (Face, Hand, Pose) using MediaPipe, and a Unity-based client for visualization and interaction.
 
@@ -12,8 +12,8 @@ This project consists of a Python-based server for motion tracking (Face, Hand, 
 
 This repository is organized into two main components:
 
-- **`GCT555_Server/`**: The Python server application.
-- **`GCT555_Client/`**: The Unity client project.
+- **`GCT600_Server/`**: The Python server application.
+- **`GCT600_Client/`**: The Unity client project.
 
 ---
 
@@ -26,21 +26,21 @@ The server utilizes Python and MediaPipe to process video feeds and extract land
 It is recommended to use Conda for managing the environment.
 
 1.  Open your terminal or command prompt.
-2.  Create a new Conda environment named `gct555`:
+2.  Create a new Conda environment named `gct600`:
     ```bash
-    conda create -n gct555 python=3.10
+    conda create -n gct600 python=3.10
     ```
 3.  Activate the environment:
     ```bash
-    conda activate gct555
+    conda activate gct600
     ```
 
 ### 2. Install Dependencies
 
-Navigate to the `GCT555_Server` directory and install the required packages:
+Navigate to the `GCT600_Server` directory and install the required packages:
 
 ```bash
-cd GCT555_Server
+cd GCT600_Server
 pip install -r requirements.txt
 ```
 
@@ -48,8 +48,8 @@ pip install -r requirements.txt
 
 The server requires specific MediaPipe models to function. A script is provided to download these models automatically.
 
--   **Windows**: Run the `download_model.bat` file located in the `GCT555_Server` directory.
--   **MacOS or Unix based OS**: Run the `download_model.sh` file located in the `GCT555_Server` directory.
+-   **Windows**: Run the `download_model.bat` file located in the `GCT600_Server` directory.
+-   **MacOS or Unix based OS**: Run the `download_model.sh` file located in the `GCT600_Server` directory.
 
 This will create a `models/` directory and download:
 -   `pose_landmarker_heavy.task`
@@ -60,7 +60,7 @@ This will create a `models/` directory and download:
 
 ### 4. Running the Server
 
-You can run the server for different tracking modes based on your needs. Ensure your environment is active (`conda activate gct555`).
+You can run the server for different tracking modes based on your needs. Ensure your environment is active (`conda activate gct600`).
 
 -   **Pose Tracking**:
     ```bash
@@ -90,21 +90,21 @@ The client is a Unity application that connects to the Python server.
 
 1.  Open **Unity Hub**.
 2.  Click on the **Add** button and select **Add project from disk**.
-3.  Navigate to and select the `GCT555_Client` folder.
+3.  Navigate to and select the `GCT600_Client` folder.
 4.  Open the project in the specified Unity version.
 
 ---
 
 ## Folder Overview
 
-### `GCT555_Server/`
+### `GCT600_Server/`
 -   **`server_*.py`**: Main entry points for different tracking modes (Pose, Hand, Face).
 -   **`requirements.txt`**: Python dependencies list.
 -   **`download_model.bat`**: Script to download necessary MediaPipe models.
 -   **`models/`**: (Generated) Directory storing downloaded model files.
 -   **`UnityScripts/`**: Contains C# scripts corresponding to the logic used in the Unity client.
 
-### `GCT555_Client/`
+### `GCT600_Client/`
 -   Standard Unity project structure.
 -   **`Assets/`**: Contains all game assets, scenes, and scripts.
 -   **`ProjectSettings/`**: Configuration files for the Unity project.
