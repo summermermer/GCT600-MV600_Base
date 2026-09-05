@@ -90,3 +90,9 @@ sysinfo.txt
 *.apk
 *.aab
 *.unitypackage
+
+# Meta Avatars SDK: generated copies of package assets
+/GCT600_Client/Assets/Oculus/Avatar2_SampleAssets/
+/GCT600_Client/Assets/Oculus/Avatar2_SampleAssets.meta
+/GCT600_Client/Assets/Oculus/Avatar2/CoreAssets/
+/GCT600_Client/Assets/Oculus/Avatar2/CoreAssets.meta
