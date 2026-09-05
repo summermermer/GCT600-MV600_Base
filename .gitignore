@@ -29,7 +29,7 @@ env.bak/
 venv.bak/
 
 # Server Specific
-GCT555_Server/models/
+GCT600_Server/models/
 
 # Unity (applies to subdirectories)
 [Ll]ibrary/
