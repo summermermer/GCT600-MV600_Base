@@ -4,7 +4,7 @@ using UnityEngine.Networking;
 
 public class QuadDisplay : MonoBehaviour
 {
-    public string snapshotUrl = "http://127.0.0.1:5000/snapshot";
+    public string snapshotUrl = "http://127.0.0.1:5003/snapshot";
     public Renderer quadRenderer;
     public float refreshRate = 0.033f; // ~30 FPS
 

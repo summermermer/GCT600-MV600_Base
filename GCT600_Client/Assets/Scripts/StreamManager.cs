@@ -19,7 +19,7 @@ public class StreamManager : MonoBehaviour
         public int faceSocketPort = 5052;
         
         [Header("Web Ports (Video)")]
-        public int poseWebPort = 5000;
+        public int poseWebPort = 5003;
         public int handWebPort = 5001;
         public int faceWebPort = 5002;
     }

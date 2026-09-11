@@ -28,7 +28,8 @@ depth_state = DepthState(
 # Configuration
 SOCKET_HOST = '0.0.0.0'
 SOCKET_PORT = 5050
-WEB_PORT = 5000
+# Port 5000 is commonly occupied by macOS AirPlay Receiver.
+WEB_PORT = 5003
 CAMERA_INDEX = 0
 DEBUG_MODE = True
 MODEL_PATH = 'models/pose_landmarker_heavy.task'

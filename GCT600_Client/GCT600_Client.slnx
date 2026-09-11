@@ -1,4 +1,6 @@
 ﻿<Solution>
+  <Project Path="Oculus.AvatarSDK2.Samples.csproj" />
   <Project Path="Assembly-CSharp.csproj" />
+  <Project Path="Oculus.AvatarSDK2.Samples.Editor.csproj" />
   <Project Path="Assembly-CSharp-Editor.csproj" />
 </Solution>

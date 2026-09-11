@@ -96,3 +96,10 @@ sysinfo.txt
 /GCT600_Client/Assets/Oculus/Avatar2_SampleAssets.meta
 /GCT600_Client/Assets/Oculus/Avatar2/CoreAssets/
 /GCT600_Client/Assets/Oculus/Avatar2/CoreAssets.meta
+# Meta XR / Avatars SDK generated assets (1.2GB+, regenerable)
+GCT600_Client/Assets/Oculus/
+GCT600_Client/Assets/Oculus.meta
+GCT600_Client/Assets/Samples/
+GCT600_Client/Assets/Samples.meta
+GCT600_Client/Assets/StreamingAssets/
+GCT600_Client/Assets/StreamingAssets.meta
